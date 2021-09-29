@@ -1,0 +1,12 @@
+#banner{
+    padding: 50px;
+    background-color: aqua;
+}
+
+main{
+    display: flex;
+}
+
+section{
+    padding: 50px;
+}
