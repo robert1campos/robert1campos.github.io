@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiments :Experiment 2</title>
+
+</head>
+<body>
+    <h1>Experiment 2</h1>
+    <h2>Using prompt() this experiment will ask the user to input their favorite color from a list of colors. Then change the background color of the page to that color.</h2>
+    
+    <script>
+
+    function question(){
+     var whatColor = prompt("Enter your favorite color from the list: red, yellow, blue, or green", "");
+     var color = ["red","blue","yellow","green"];
+     
+     if (whatColor == "red"){
+        document.body.style.backgroundColor = color[0];
+     }
+     else if(whatColor == "blue"){
+        document.body.style.backgroundColor = color[1];
+    }
+    else if(whatColor == "yellow"){
+        document.body.style.backgroundColor = color[2];
+    }
+    else if(whatColor == "green"){
+        document.body.style.backgroundColor = color[3];
+    }
+    }
+
+    question();
+
+    //In the code there is a function where the prompt will ask the user to choose a color form the list which are actually variables in an array. When the user chooses a color the loop in the code will associate that variable to the DOM which will change the background color of the page. 
+
+    </script>
+</body>
+</html>
