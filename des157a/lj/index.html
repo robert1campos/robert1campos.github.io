@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Raleway:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="styles.css" rel="stylesheet">
+    <title>Learning Journal</title>
+</head>
+<body class="orange">
+    <header>
+    <h1>Learning Journal</h1>
+    <h2 class="name">Robert Campos</h2>
+    <h2 class="class">DES 157A - Interactive Media II - Fall 2021</h2>
+    <hr class="line">
+    </header>
+
+    <main>
+    <article>
+        <h3>Mad Libs 2.0 - Reading & Response</h3>
+        <time datetime="2021-10-18">October 18, 2021</time>
+        <p>After reading the article I thought there were many helpful points to consider when creating a form and thinking about how the user interacts with them. As the article stated in the beginning, the user should be able to understand the form very simply and should have an easy and enjoyable experience of filling the form out. The major ways of achieving these goals according to the article is through certain choices in the layout and in the logic of creating a form.</p>
+        <p>Certain best practices that the article mentioned when designing the layout of a form included; one column layouts for better flow, clear labels to easily understand the form, and minimizing the use of drop down menus for a faster process. Some examples of the logic that can be included to strengthen the design of the form included; minimizing the input in order to decrease cognitive load, explaining the requirements of the form, and asking the easy questions first to build commitment for the user.</p>
+        <p>When I was considering an interface that exemplified these best practices I thought about TurboTax. They include several examples of best practice: explaining required input, one column layout, and even showing the user the multiple steps required. </p>
+       <a href="https://turbotax.intuit.com/">Link to TurboTax Website</a>
+    </article>
+    </main>
+
+    <footer> 
+        <a href="https://validator.w3.org/check?uri=https://robert1campos.github.io/des157a">Valid HTML 5</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+    </footer>
+
+    <script>
+        var pageTop;
+        var bodyTag = document.querySelector('body');
+
+        window.addEventListener('scroll', function(){
+            pageTop = window.pageYOffset;
+
+            switch(true){
+                case pageTop < 200: bodyTag.className="orange";
+                break;
+                case pageTop < 500: bodyTag.className="green";
+                break;
+                default: bodyTag.className="blue";
+            }
+        });
+    </script>
+</body>
+</html>

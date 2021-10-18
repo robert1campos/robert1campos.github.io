@@ -1,0 +1,89 @@
+.orange{
+    background-color:rgb(244, 162, 97);
+    transition: all 4s;
+}
+.green{
+    background-color:rgb(42, 157, 143);
+    transition: all 4s;
+}
+.blue{
+    background-color:rgb(38, 70, 83);
+    transition: all 4s;
+}
+
+.line{
+    border: 2px solid rgb(231, 111, 81);
+    margin-left: 75px;
+    margin-right: 325px;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    color: rgb(234, 226, 183);
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 110px;
+    color: rgb(234, 226, 183);
+}
+
+.name{
+    width: 200px;
+    float: left;
+}
+
+.class{
+    width: 750px;
+    position: relative;
+}
+
+h3{
+    color:#0A1215;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+
+time{
+    font-size: 18px;
+}
+
+article{
+    font-family: 'Raleway', sans-serif;
+    width: 6.8in;
+    margin-left: 420px;
+    padding: 30px;
+}
+
+p{
+    padding-left: 10px;
+    font-size: 22px; 
+    line-height: 40px;
+    font-weight: 200;
+    color: #0A1215;
+}
+
+footer{
+    margin-left: 100px;
+    padding-bottom: 30px;
+}
+
+a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px; 
+    text-decoration: none;
+    color: #0A1215;
+    padding-left: 25px;
+}
+a:link, a:visited{
+    color: #0A1215;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    color: rgb(234, 226, 183);
+    text-decoration: underline;
+}
