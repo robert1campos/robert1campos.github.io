@@ -20,6 +20,12 @@
     <main>
     <article>
         <h3>Mad Libs 2.0 - Reading & Response</h3>
+        <time datetime="2021-10-20">October 20, 2021</time>
+        <p>After reading the articles on overlays, I learned there are specific practices that should be considered before incorporating an overlay in a website or design. First the designer must consider why they are adding an overlay; popular reasons will include getting the user to view specific content, complete a required form, or make a certain decision. The reasoning should be carefully considered because overlays can often interrupt the user and cause an inconvenience by disrupting the interaction with the main page they are on. One best practice that should be included when using overlays is a ‘cancel’ button, so the user knows they can get out of the overlay and continue their interaction. </p>
+        <p>Other best practices that I thought were important from the reading included the placement of the overlay, which oftentimes will appear too low on the browser. Making sure the overlay is in the eyeline of the user and placed in the upper middle section of the page will allow them to actually interact with the overlay. The other best practice that I thought was important when using overlays was formatting it properly for mobile settings. Overlays that are not properly formatted will completely block the user from seeing the content they actually need, and even prevent them from viewing the entire overlay. </p>
+    </article>
+    <article>
+        <h3>Mad Libs 2.0 - Reading & Response</h3>
         <time datetime="2021-10-18">October 18, 2021</time>
         <p>After reading the article I thought there were many helpful points to consider when creating a form and thinking about how the user interacts with them. As the article stated in the beginning, the user should be able to understand the form very simply and should have an easy and enjoyable experience of filling the form out. The major ways of achieving these goals according to the article is through certain choices in the layout and in the logic of creating a form.</p>
         <p>Certain best practices that the article mentioned when designing the layout of a form included; one column layouts for better flow, clear labels to easily understand the form, and minimizing the use of drop down menus for a faster process. Some examples of the logic that can be included to strengthen the design of the form included; minimizing the input in order to decrease cognitive load, explaining the requirements of the form, and asking the easy questions first to build commitment for the user.</p>
@@ -41,9 +47,9 @@
             pageTop = window.pageYOffset;
 
             switch(true){
-                case pageTop < 200: bodyTag.className="orange";
+                case pageTop < 400: bodyTag.className="orange";
                 break;
-                case pageTop < 500: bodyTag.className="green";
+                case pageTop < 900: bodyTag.className="green";
                 break;
                 default: bodyTag.className="blue";
             }
