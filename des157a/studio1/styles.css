@@ -66,6 +66,14 @@ input{
     border: 0.5px solid rgb(186, 86, 36);
     width: 1in;
 }
+.close{
+    color:rgb(196, 214, 176);
+    background-color: rgb(186, 86, 36);
+    border: 0.5px solid rgb(186, 86, 36);
+    width: 1in;
+    border-radius: 10px;
+    margin-left: 300px;
+}
 #overlay {
     position: fixed;
     display: none;
@@ -87,4 +95,24 @@ input{
     text-align: center;
     color: rgb(186, 86, 36);
     font-size: 80px;
+}
+footer{
+    margin-left: 50px;
+}
+
+a{
+    font-family: 'Yeon Sung', cursive;
+    color: rgb(196, 214, 176);
+    font-size: 18px; 
+    text-decoration: none;
+    padding-left: 25px;
+}
+a:link, a:visited{
+    color: rgb(196, 214, 176);
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    color: rgb(186, 86, 36);
+    text-decoration: underline;
 }
