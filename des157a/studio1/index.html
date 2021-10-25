@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Studio 1-Mad Libs</title>
+</head>
+<body> 
+   
+    <header>  
+        <div class="hand"><img src="images/hand3.gif" alt=""></div>
+    </header>
+    <main>
+            <h1>Beyond The Grave Mad Libs</h1>
+        <form id="myForm">
+            <h2>Enter for your own spooky story</h2>
+            
+            <label for="noun1">First Noun</label>
+            <input type="text" id="noun1" required>
+
+            <label for="adj1">Adjective</label>
+            <input type="text" id="adj1" required>
+
+            <label for="noun2">Second Noun</label>
+            <input type="text" id="noun2" required>
+
+            <label for="noun3">Third Noun</label>
+            <input type="text" id="noun3" required>
+
+            <label for="noun4">Fourth Noun</label>
+            <input type="text" id="noun4" required>
+
+            <input type="submit" value="Send" id="submitButton" onclick="on()">
+        </form>
+        
+        <section id="overlay" onclick="off()">
+            <h2 id="overlayTitle">Your Spooky Story</h2>
+           
+            <p id="madLib"></p> 
+            <img src="images/skull-04.jpg" alt="skull" id="skull">
+            <button class="close">close</button>
+        </section>
+    </main>
+ 
+    <footer> 
+        <a href="https://validator.w3.org/check?uri=https://robert1campos.github.io/des157a">Valid HTML 5</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+    </footer>
+</body>
+</html>
