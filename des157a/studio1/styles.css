@@ -1,12 +1,13 @@
 body{
     background-image: url(images/background-03.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: 1700px 968px;
+    background-repeat: no-repeat;
 }
 .hand{
     height: 40px;
-    padding-left: 500px;
+    padding-left: 550px;
     padding-top: 80px;
+    position: relative;
 }
 h1{
     font-family: 'Creepster', cursive;

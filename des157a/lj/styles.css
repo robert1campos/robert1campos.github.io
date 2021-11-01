@@ -53,7 +53,7 @@ time{
 
 article{
     font-family: 'Raleway', sans-serif;
-    width: 6.8in;
+    width: 6.5in;
     margin-left: 420px;
     padding: 30px;
 }
@@ -86,4 +86,13 @@ a:link, a:visited{
 a:hover, a:active{
     color: rgb(234, 226, 183);
     text-decoration: underline;
+}
+figure{
+    padding-left: 110px;
+}
+.image1{
+    width:80%;
+}
+.image2{
+    width:80%;
 }
