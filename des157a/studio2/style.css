@@ -1,0 +1,150 @@
+body{
+    background: #000;
+}
+main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 500px;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 25%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#pic{
+    width: 600px;
+    height: 760px;
+    background: url(images/image_blackandwhite.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+#pic::before{
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 46px;
+    background: url(images/image_blackandwhite.png) no-repeat;
+    background-size: cover;
+    filter: sepia(100%);
+    opacity: 0;
+}
+
+#pic:hover::before{
+    opacity: .7;
+    animation: glitch 1s infinite linear;
+}
+#pic2{
+    width: 600px;
+    height: 760px;
+    background: url(images/image_flowerblackandwhite.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+}
+#pic2::before{
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 46px;
+    background: url(images/image_flowerblackandwhite.png) no-repeat;
+    background-size: cover;
+    filter: sepia(100%);
+    opacity: 0;
+}
+
+#pic2:hover::before{
+    opacity: .7;
+    animation: glitch 1s infinite linear;
+}
+#pic3{
+    width: 600px;
+    height: 760px;
+    background: url(images/image_mothblackandwhite.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#pic3::before{
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 46px;
+    background: url(images/image_mothblackandwhite.png) no-repeat;
+    background-size: cover;
+    filter: sepia(5%);
+    opacity: 0;
+}
+#pic3:hover::before{
+    opacity: .75;
+    animation: glitch 1s infinite linear;
+}
+@keyframes glitch{
+    0%{
+        top: 0;
+        background-position: 12px 0;
+    }
+    20%{
+        top: 180px;
+        background-position: -10px -180px;
+    }
+    40%{
+        top:260px;
+        background-position: 6px -260px;
+    }
+    60%{
+        top:400px;
+        background-position: -6px -400px;
+    }
+    80%{
+        top: 520px;
+        background-position: 10px -520px;
+    }
+    100%{
+        top:600px;
+        background-position: -12px -600px;
+    }
+}
+.pink{
+    background-color:rgb(229, 60, 240
+    );
+    transition: all 4s;
+}
+.blue{
+    background-color:rgb(68, 23, 166);
+    transition: all 4s;
+}
+.purple{
+    background-color:rgb(39, 13, 94);
+    transition: all 4s;
+}
+footer{
+    margin-left: 100px;
+    padding-bottom: 30px;
+}
+a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px; 
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;
+}
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    color: rgb(234, 226, 183);
+    text-decoration: underline;
+}
