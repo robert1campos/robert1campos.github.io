@@ -1,0 +1,190 @@
+body{
+    background-color:black;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    filter: brightness(4);
+    mix-blend-mode: multiply;
+}
+
+#lyrics{
+    color:black;
+    font-family: 'Archivo Black', sans-serif;
+    position: relative;
+    margin-top: 0px;
+    top: 0;
+    left: 0;
+    background: black;
+    height: 100%;
+    width: 12in;
+    align-items: center;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+#lyric1 {
+    top: 0;
+    padding-left: 250px;
+    position: absolute;
+    color:white;
+}
+
+#lyric2 {
+    top: 0;
+    padding-left: 200px;
+    position: absolute;
+    color:white;
+}
+
+#lyric3 {
+    top: 0;
+    padding-top: 200px;
+    padding-left: 250px;
+    position: absolute;
+    color:white;
+}
+
+#lyric4 {
+    top: 0;
+    padding-top: 100px;
+    padding-left: 200px;
+    position: absolute;
+    color:white;
+}
+
+#lyric5 {
+    top: 0;
+    padding-left: 200px;
+    position: absolute;
+    color:white;
+}
+
+#lyric6 {
+    top: 0;
+    padding-top: 200px;
+    padding-left: 250px;
+    position: absolute;
+    color:white;
+}
+
+#lyric7 {
+    top: 0;
+    padding-top: 200px;
+    padding-left: 400px;
+    position: absolute;
+    color:white;
+}
+
+#lyric8 {
+    top: 0;
+    padding-top: 200px;
+    padding-left: 400px;
+    position: absolute;
+    color:white;
+}
+
+#lyric9 {
+    top: 0;
+    padding-top: 200px;
+    padding-left: 400px;
+    position: absolute;
+    color:white;
+}
+#lyric10 {
+    top: 0;
+    padding-top: 200px;
+    padding-left: 400px;
+    position: absolute;
+    color:white;
+}
+
+#lyric11 {
+    top: 0;
+    padding-top: 200px;
+    padding-left: 400px;
+    position: absolute;
+    color:white;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.showing {
+    opacity: 1;
+}
+
+.volume {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 100;
+    position: absolute;
+    right: 50%; 
+    width: 80px;
+    padding: 12px;
+    border: 0;
+    border-radius: 14px;
+    text-align: center;
+    background-color: white;
+    bottom: 20px;
+}
+
+.volume-up {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 100;
+    position: absolute;
+    right: 50%; 
+    width: 80px;
+    padding: 12px;
+    border: 0;
+    border-radius: 14px;
+    text-align: center;
+    background-color: white;
+    bottom: 20px;
+}
+
+.volume-mute{
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 100;
+    position: absolute;
+    right: 50%; 
+    width: 80px;
+    padding: 12px;
+    border: 0;
+    border-radius: 14px;
+    text-align: center;
+    background-color: white;
+    bottom: 20px;
+}
+
+.volume:hover,
+input {
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+.volume-up:hover{
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+.volume-mute:hover {
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+.loading{
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    position: absolute;
+    right: 50%;
+    font-size: 136px;
+    color: white;
+}
