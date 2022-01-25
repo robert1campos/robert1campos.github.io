@@ -1,0 +1,79 @@
+/* font-family: 'Lobster', cursive;
+font-family: 'Mulish', sans-serif; */
+
+.hidden{
+    opacity: 0;
+}
+div{
+    position: absolute;
+    padding-left: 100px;
+}
+body{
+    background-color: rgb(241, 250, 238);
+}
+#May{
+    margin-left: 50px;
+}
+#July{
+    margin-left: 225px;
+}
+#September{
+    margin-left: 400px;
+}
+#November{
+    margin-left: 625px;
+}
+#December{
+    margin-left: 850px;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(29, 53, 87);
+}
+h2{
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Lobster', cursive;
+    justify-content: center;
+    color: rgb(29, 53, 87);
+}
+h2:hover{
+    color: rgb(230, 57, 70);
+}
+h3{
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    color: rgb(230, 57, 70);
+}
+#picker{
+    font-family: 'Mulish', sans-serif;
+    color: rgb(29, 53, 87);
+}
+em {
+    font-style: normal;
+    font-weight:bold;
+    color: rgb(230, 57, 70);
+}
+li{
+    list-style-type: none;
+    padding-left: 50px;
+    color: rgb(69, 123, 157);
+}
+ul{
+    position: absolute;
+    left: 0px;
+}
+ul, li{
+    width: 3in;
+    padding-bottom: 35px; 
+    font-family: 'Mulish', sans-serif;
+}
+
+ /* padding-top: 15px; */
+ /* float: left; */
+    /* justify-content: center; */
+    /* position: relative; */
+    /* padding-top: 50px;
+    padding-bottom: 50px; */

@@ -1,0 +1,82 @@
+{
+    "point1" : {
+        "date" : "May 6th",
+        "items" : 12,
+        "shirts" : 4,
+        "pants" : 4,
+        "outerwear" : 3,
+        "other" : 1,
+        "moneysaved" : 47.99,
+        "returns" : 2
+    }, 
+    "point2" : {
+        "date" : "July 9th",
+        "items" : 12,
+        "shirts" : 3,
+        "pants" : 8,
+        "outerwear" : 1,
+        "other" : 0,
+        "moneysaved" : 57.68,
+        "returns" : 6
+    },
+    "point3" : {
+        "date" : "September 20th",
+        "items" : 17,
+        "shirts" : 9,
+        "pants" : 3,
+        "outerwear" : 1,
+        "other" : 4,
+        "moneysaved" : 121.43,
+        "returns" : 9
+    },
+    "point4" : {
+        "date" : "November 1st",
+        "items" : 6,
+        "shirts" : 2,
+        "pants" : 2,
+        "outerwear" : 1,
+        "other" : 1,
+        "moneysaved" : 50,
+        "returns" : 0
+    },
+    "point5" : {
+        "date" : "November 09th",
+        "items" : 5,
+        "shirts" : 0,
+        "pants" : 1,
+        "outerwear" : 4,
+        "other" : 0,
+        "moneysaved" : 81.98,
+        "returns" : 2
+    },
+    "point6" : {
+        "date" : "November 11th",
+        "items" : 9,
+        "shirts" : 6,
+        "pants" : 2,
+        "outerwear" : 1,
+        "other" : 0,
+        "moneysaved" : 68.59,
+        "returns" : 4
+    },
+    "point7" : {
+        "date" : "November 13th",
+        "items" : 4,
+        "shirts" : 2,
+        "pants" : 0,
+        "outerwear" : 2,
+        "other" : 0,
+        "moneysaved" : 37.80,
+        "returns" : 2
+    },
+    "point8" : {
+        "date" : "December 13th",
+        "items" : 6,
+        "shirts" : 2,
+        "pants" : 0,
+        "outerwear" : 0,
+        "other" : 4,
+        "moneysaved" : 50,
+        "returns" : 0
+    }
+}
