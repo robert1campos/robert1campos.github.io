@@ -51,7 +51,7 @@
               console.log(instagram);
               console.log(linkedin);
             }
-        const results = await query.ascending('lname').find();
+        // const results = await query.ascending('lname').find();
         // console.log(results);
         results.forEach( function(eachFriend) {
             const id = eachFriend.id;
