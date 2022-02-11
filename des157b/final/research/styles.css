@@ -1,0 +1,21 @@
+h1{
+    font-family: "Monaco";
+    margin-left: 250px;
+}
+p {
+    font-family: "Monaco";
+    padding-left: 10px;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 200;
+    width: 7in;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;  
+    }
