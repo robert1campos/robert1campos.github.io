@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Functions</title>
+    <style>
+        html {
+            background-color: #efefef;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+            line-height: 1.4em;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        code {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body> 
+    <h1>Change this H1</h1>
+
+    <p>Add a short description of your function, what it does and where you got it. You can pull it from some other project you have, or you can create a function from scratch that does something simple and straight forward. Don't just use one of Bill and Glenda's examples though.</p>
+
+   
+
+    <h2>Named Function</h2>
+    <code> 
+        <p>The function below prompts the user to choose a color from the options provided, which are actually variables in an array. When the user chooses a color the loop in the code will change the background color of the page.</p>
+        <pre>
+            function question(){
+                var whatColor = prompt("Enter your favorite color from the list: red, yellow, blue, or green", "");
+                var color = ["red","blue","yellow","green"];
+                
+                if (whatColor == "red"){
+                   document.body.style.backgroundColor = color[0];
+                }
+                else if(whatColor == "blue"){
+                   document.body.style.backgroundColor = color[1];
+               }
+               else if(whatColor == "yellow"){
+                   document.body.style.backgroundColor = color[2];
+               }
+               else if(whatColor == "green"){
+                   document.body.style.backgroundColor = color[3];
+               }
+               }
+               question();
+        </pre>
+    </code>
+
+
+    <h2>Function Expression</h2>
+    <code>
+        <pre>
+
+            const question = function(){
+                var whatColor = prompt("Enter your favorite color from the list: red, yellow, blue, or green", "");
+                var color = ["red","blue","yellow","green"];
+                
+                if (whatColor == "red"){
+                   document.body.style.backgroundColor = color[0];
+                }
+                else if(whatColor == "blue"){
+                   document.body.style.backgroundColor = color[1];
+               }
+               else if(whatColor == "yellow"){
+                   document.body.style.backgroundColor = color[2];
+               }
+               else if(whatColor == "green"){
+                   document.body.style.backgroundColor = color[3];
+               }
+               }
+               question();
+        </pre>
+    </code>
+
+    <h2>Arrow Function</h2>
+    <code>
+        <pre>
+
+            const question = () => {
+                var whatColor = prompt("Enter your favorite color from the list: red, yellow, blue, or green", "");
+                var color = ["red","blue","yellow","green"];
+                
+                if (whatColor == "red"){
+                   document.body.style.backgroundColor = color[0];
+                }
+                else if(whatColor == "blue"){
+                   document.body.style.backgroundColor = color[1];
+               }
+               else if(whatColor == "yellow"){
+                   document.body.style.backgroundColor = color[2];
+               }
+               else if(whatColor == "green"){
+                   document.body.style.backgroundColor = color[3];
+               }
+               }
+               question();
+        </pre>
+    </code>
+
+    <footer> Robert Campos </footer>
+    
+</body>
+</html>
