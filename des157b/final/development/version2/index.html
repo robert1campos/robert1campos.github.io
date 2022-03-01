@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet"/>
+    
+    <title>Final Project: Version 2</title>
+</head>
+<body>
+    <canvas id="canvas-basic"></canvas>
+
+    <div id="startpage">
+        <h1>Welcome to Quick Tranquil</h1>
+        <p>We are here to help you in those stressful moments. Sit with one of our experiences so you can have a moment of mindfulness.</p>
+        <button id="continuehome">start</button>
+    </div>
+
+    <div id="home" class="hidden">
+        <h1 id="title">Quick Tranquil</h1>
+        <p>How are you feeling in this moment?</p>
+        <button id="overwhlemed">overwhlemed</button>
+        <button id="stressed">stressed</button>
+        <button id="restless">restless</button>
+    </div>
+
+
+    <div id="choice1" class="hidden">
+        <h1>Based on your choice...</h1>
+        <p>we have provided a certain experience to help with feeling overwhelmed .</p>
+        <!-- <button id="continuechoose">choose your own</button> -->
+        <button id="continue">continue</button>
+        
+    </div>
+
+
+    <section id="choicea" class="hidden">
+        <p>If you are feeling overwhlemed we think it would be best if you give yourself a few minutes and write about your feelings and allow yourself to process your emotions.</p>
+        <button id="start1">start your experience</button>
+    </section>
+
+
+    <section id="journal" class="hidden"> 
+        <h1>What's something that's been on your mind lately?</h1>
+        <div>
+            <textarea id="input" ></textarea>
+        </div>
+        <input type="submit" id="submit1">
+          <!-- <button id="submit1">submit</button> -->
+    </section>
+
+
+    <section id="choice2" class="hidden">
+        <h1>Based on your choice...</h1>
+        <p>we have provided a certain experience to help with feeling stressed.</p>
+        <button id="continue2">continue</button>
+        <!-- <button id="continuechoose">choose your own</button> -->
+    </section>
+
+
+    <section id="choiceb" class="hidden">
+        <p>If you are feeling stressed we think it would be best if you give yourself a few minutes to breathe.</p>
+        <button id="start2">start your experience</button>
+    </section>
+
+
+    <section id="choice3" class="hidden">
+        <h1>Based on your choice...</h1>
+        <p>we have provided a certain experience to help with feeling restless .</p>
+        <button id="continue3">continue</button>
+        <!-- <button  id="continuechoose">choose your own</button> -->
+    </section>
+
+
+    <section id="choicec" class="hidden">
+        <p>If you are feeling restless we think it would be best if you give yourself a few minutes and watch a relaxing video in order to give yourself a moment of mindfulness.</p>
+        <button id="start3">start your experience</button>
+    </section>
+ 
+   
+    <div id="visuals" class="hidden">
+        <!-- <p>test</p> -->
+        <button>continue</button> 
+    </div>
+
+    <!-- <section id="choose" class="hidden">
+        <h1>Choose your own experience...</h1>
+        <button id="continue">journaling</button>
+        <button id="continue2">breathing</button>
+        <button id="continue3">visuals</button>
+    </section> -->
+
+    <section id="thankyou" class="hidden"> 
+        <p>test</p>
+        <button>continue</button>
+    </section>>
+    
+    <script src="script.js" defer></script>
+    <script src="dist/granim.min.js" ></script>
+</body>
+</html>
