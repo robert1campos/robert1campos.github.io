@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet"/>
+    
+    <title>Final Project: Version 2</title>
+</head>
+<body>
+    <canvas id="canvas-basic"></canvas>
+
+    <div id="startpage">
+        <h1>Welcome to Quick Tranquil</h1>
+        <p>This project aims to help you when you may be in a stressful situation.</p>
+        <button id="continuehome">start</button>
+    </div>
+
+    <div id="home" class="hidden">
+        <h1 id="title">Quick Tranquil</h1>
+        <p>How are you feeling in this moment?</p>
+        <button id="overwhlemed">write</button>
+        <button id="stressed">breathe</button>
+        <button id="restless">read</button>
+    </div>
+
+    <section id="choicea" class="hidden">
+        <p>Give yourself a few minutes to write about your feelings and allow yourself to process your emotions.</p>
+        <button id="start1">start your experience</button>
+    </section>
+
+
+    <section id="journal" class="hidden"> 
+        <h1>What have you been thinking about today?</h1>
+        <div>
+            <textarea type ="text" id="input" ></textarea>
+        </div>
+        <h1>What made you want to log into today?</h1>
+        <div>
+            <textarea type ="text" id="input2" ></textarea>
+        </div>
+        <input type="submit" id="submit1">
+          <!-- <button id="submit1">submit</button> -->
+    </section>
+
+    <section id="overlay">    
+        <p id="madLib"></p> 
+        <button id="close">close</button>
+    </section>
+
+    <section id="choiceb" class="hidden">
+        <p>Take a few minutes for yourself to breathe and try to relax.</p>
+        <button id="start2">start your experience</button>
+    </section>
+
+  <section id="breathing" class="hidden">
+        <div class="change-content"><div></div></div>
+        <button id="submit2">close</button>
+  </section>
+
+    <section id="choicec" class="hidden">
+        <p>Read how others are getting through their rough times, and just remember that you are not alone. </p>
+        <button id="start3">start your experience</button>
+    </section>
+ 
+    <div id="visuals" class="hidden">
+        <h1>You Are Not Alone</h1>
+        <p>This is where other user experiences will be displayed, and where the journal inputs will be dispalyed. </p>
+        <button id="conthome">close</button>
+         <!-- <ol class="container"></ol> -->
+    </div>
+    
+    <script src="script.js" defer></script>
+    <script src="dist/granim.min.js" ></script>
+</body>
+</html>
