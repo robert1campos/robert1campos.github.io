@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+    
+    <title>Final Project: Mindful Minute</title>
+</head>
+<body>
+    <canvas id="canvas-basic"></canvas>
+
+    <div data-aos="zoom-in-up" data-aos-duration="3000" id="startpage">
+        <h1>Welcome to Mindful Minute</h1>
+        <p>This project aims to help you when you may be having one of those stressful moments, and you need a minute for mindfulness.</p>
+        <button id="continuehome">start</button>
+    </div>
+
+    <div id="home">
+        <h1 id="title">Mindful Minute</h1>
+        <p>Pick one of the experiences below that will help you the most in this stressful moment. </p>
+        <button id="breathe">breathe</button>
+        <button id="overwhlemed">write</button>
+        <button id="restless">read</button>
+    </div>
+
+    <section id="choicea">
+        <button id="back1">←</button>
+        <p>Give yourself a few minutes to write about your feelings and allow yourself to process your emotions.</p>
+        <button id="start1">start your experience</button>
+    </section>
+
+    <form id="journal"> 
+        <h2>Enter Your Name</h1>
+            <input type ="text"  name="name">
+        <h2>What have you been thinking about today?</h1>
+            <input type ="text" name="firstanswer">
+        <h2>What is something your grateful for?</h1>
+            <input type ="text" name="secondanswer">
+        <input type="submit" id="submit1">
+        </form>
+
+    <section id="choiceb" >
+        <button id="back2">←</button>
+        <p>Take a few minutes for yourself to breathe and try to relax.</p>
+        <button id="start2">start your experience</button>
+    </section>
+
+  <section id="breathing" >
+        <div class="change-content"><div></div></div>
+        <button id="submit2">close</button>
+  </section>
+
+    <section id="choicec" >
+        <button id="back3">←</button>
+        <p>Read how others are getting through their rough times, and just remember that you are not alone. </p>
+        <button id="start3">start your experience</button>
+    </section>
+ 
+    <div id="visuals" >
+        <h1>You Are Not Alone</h1>
+        <div class="container"></div>
+        <button id="conthome">close</button>
+         
+    </div>
+    
+    <script src="script.js" defer></script>
+    <script src="dist/granim.min.js" ></script>
+</body>
+</html>
